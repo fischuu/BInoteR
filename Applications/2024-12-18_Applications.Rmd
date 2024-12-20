@@ -1,0 +1,38 @@
+## 2024-12-18
+
+### Notes
+We talked with Antti about the AKA research plan and there we agreed that I need to 
+
+a) add my description still
+b) read the plan, especially the introduction
+
+### ToDos
+- **Task**: Comment on Antti research plan
+  - **Due**: 2024-12-19
+  - **Priority**: Normal
+  - **Estimated Duration**: 2h
+  - **Ready**: Yes
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

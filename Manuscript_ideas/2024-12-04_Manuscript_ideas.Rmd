@@ -1,0 +1,36 @@
+## 2024-12-04
+
+### Notes
+We compared the cattle assemblies and noticed that there are actually no big differences
+at all. This could be added into a small communication and explain what is used in what.
+
+### ToDos
+- **Task**: [Another Task Title]
+  - **Due**: [YYYY-MM-DD]
+  - **Priority**: [High/Normal/Low]
+  - **Estimated Duration**: [e.g., 2h]
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

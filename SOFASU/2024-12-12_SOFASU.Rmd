@@ -1,0 +1,35 @@
+## 2024-12-12
+
+### Notes
+Krista asked me to find a statistician for her and I promissed to find one until next Monday for her.
+
+### ToDos
+- **Task**: [Another Task Title]
+  - **Due**: [YYYY-MM-DD]
+  - **Priority**: [High/Normal/Low]
+  - **Estimated Duration**: [e.g., 2h]
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: Timo Hurme
+  - **Subject**: Statistician with R for compositional data / metagenomics
+  - **Sent**: 2024-12-12
+  - **Follow-up**: 2024-12-16
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

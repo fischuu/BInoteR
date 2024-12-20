@@ -1,0 +1,29 @@
+---
+title: "ToDo Report for Mastitis_Challenge"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float:
+      toc_collapsed: true
+number_sections: false
+---
+
+```{r, echo=FALSE}
+tmp <- c("Get quickly the diff and ratio threshold", "Due: 2024-12-05 | Priority: High | Estimated Duration: 2h | Ready: No | Tags: Coding", "Get genes associated to top 10% ratio and top 10% difference", "Due: 2024-12-05 | Priority: High | Estimated Duration: 2h | Ready: No | Tags: Coding")
+todos_for_kable <- data.frame(Task=tmp)
+
+```
+
+## ToDo List
+
+```{r, echo=FALSE, results='asis'}
+library(kableExtra)
+kable(
+  todos_for_kable, escape = FALSE, align = c('l')) %>%
+  kable_styling(full_width = TRUE, bootstrap_options = c('striped', 'hover')) %>%
+  row_spec(1:nrow(todos_for_kable), background = 'white') %>%
+  row_spec(seq(2, nrow(todos_for_kable), by = 2), background = '#D3D3D3') %>%
+  row_spec(seq(2, nrow(todos_for_kable), by = 2), extra_css = 'border-bottom: 2px solid #000000')
+```
+

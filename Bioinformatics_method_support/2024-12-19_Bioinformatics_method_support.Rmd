@@ -1,0 +1,36 @@
+## 2024-12-19
+
+### Notes
+Topi asked to check, how Sirja's R / Rstudio problem evolved and I promised to check in with her on
+that and let him know, in case Sirja has solved it.
+
+### ToDos
+- **Task**: [Another Task Title]
+  - **Due**: [YYYY-MM-DD]
+  - **Priority**: [High/Normal/Low]
+  - **Estimated Duration**: [e.g., 2h]
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: Sirja Viitala
+  - **Subject**: Status of R/Rstudio in software center
+  - **Sent**: 2024-12-19
+  - **Follow-up**: 2025-01-10
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

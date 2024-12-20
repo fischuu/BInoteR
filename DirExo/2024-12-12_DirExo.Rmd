@@ -1,0 +1,68 @@
+## 2024-12-12
+
+### Notes
+Today I presented the miRNA results to Anna, Oliver and Santeri. The bottom line is that we cannot really
+say anything about the data, we see between 100k and 600k reads aligning to the mirbase db, so there are
+certainly reads in the data that are miRNA origin. However, then we have about 10-15% of reads mapping uniquely,
+then about 30% multimapping, which is also okay for miRNA. Then about 25% unmappable and then 25% unaligned for
+other reasons. 
+
+We currently thought, this could be due to the fragmentation of the genome or because of the hiugh repetitive
+origin. The reason is often that STAR cannot find a proper seed starting point for the alignment. Here, certainly
+more manual work is needed to see how to improve the mapping with that respect. 
+
+From the unique aligned reads, about 1/3 goes to known annotation adn 2/3 goes to unannotated region, indicating
+that there is still plenty of space for improvement of the annotation.
+
+So, all in all we see miRNA signals and we see spruce origin reads, but we would need more manual curation at
+this point to get more out of the data. The automatic workflow reaches the limits.
+
+
+The plan is now that Anna will write to Nathaniel and asks about the new annotation and genome and sets up a
+meeting in January.
+
+
+### ToDos
+- **Task**: Curate the alignment results (fine tune paramters, creation of quantification tables)
+  - **Due**: [YYYY-MM-DD]
+  - **Priority**: Low
+  - **Estimated Duration**: 20h
+  - **Ready**: No
+  - **Tags**: #ideas
+  
+- **Task**: Identify the relevant mirna sequences from mirDB alignments and search their position on the genome
+  - **Due**: [YYYY-MM-DD]
+  - **Priority**: Low
+  - **Estimated Duration**: 10h
+  - **Ready**: No
+  - **Tags**: #ideas
+
+- **Task**: Rerun the pipeline with the new Spruce assembly
+  - **Due**: [YYYY-MM-DD]
+  - **Priority**: Low
+  - **Estimated Duration**: 5h
+  - **Ready**: No
+  - **Tags**: #ideas
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

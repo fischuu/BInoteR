@@ -1,0 +1,60 @@
+---
+title: "Mastitis Challenge"
+author: "Daniel Fischer"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float:
+      toc_collapsed: true
+  number_sections: false
+  theme: lumen
+  df_print: paged
+  code_folding: hide
+---
+
+# Project: Mastitis Challenge
+
+## Project Metadata
+- **PI**: [Principal Investigator]
+- **Data Storage**: [Path/Location]
+- **Code Storage**: [Repository/Path]
+- **Backup Location**: [Backup Path/Service]
+- **Billing Code**: [Grant or Account Code]
+- **Created**: [YYYY-MM-DD]
+- **Updated**: [YYYY-MM-DD]
+
+```
+
+
+
+
+## 2024-12-03
+
+### Notes
+I started to add the fold change and absolute difference into the analysis. This takes, however, way too long to run,
+because the concatenation of the vector takes too long. My plan is now to
+a) First run the values without names and with NA removed to get the interesting threshold and then
+b) rerun the values but this time without concatenating, but just by writing out the gene names in case it hosts a SNP that belongs to 
+the top 10% in fold change and top 10% in absolute difference
+
+### ToDos
+- **Task**: Get quickly the diff and ratio threshold
+  - **Due**: 2024-12-05
+  - **Priority**: High
+  - **Estimated Duration**: 2h
+  - **Ready**: No
+  - **Tags**: Coding
+- **Task**: Get genes associated to top 10% ratio and top 10% difference
+  - **Due**: 2024-12-05
+  - **Priority**: High
+  - **Estimated Duration**: 2h
+  - **Ready**: No
+  - **Tags**: Coding
+
+### Emails
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+

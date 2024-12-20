@@ -1,4 +1,4 @@
-create_daily_template <- function(date = Sys.date(), project_name = "BrownTrout") {
+create_daily_template <- function(date = Sys.Date(), project_name = "BrownTrout") {
   # Set project directory
   project_dir <- gsub(" ", "_", project_name)
   

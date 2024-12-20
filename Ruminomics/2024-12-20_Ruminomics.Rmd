@@ -1,0 +1,37 @@
+## 2024-12-20
+
+### Notes
+I restarted the pipeline with a few adjustment in the config files, based on the discussion we had with Chris et al.
+
+Now I have to go module by module and see how it goes. Currently runs the preprocess module
+
+### ToDos
+- **Task**: Rerun all the modules
+  - **Due**: 2025-01-10
+  - **Priority**: Normal
+  - **Estimated Duration**: 2.5h
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

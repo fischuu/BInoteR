@@ -1,0 +1,42 @@
+## 2024-12-18
+
+### Notes
+It seems there is something wrong with my lift-over of the population SNPs. Apparently,
+a few SNPs are off by two bases which I do not understand. I suppose there is a +-1 error
+when I adjust the bases, but I cannot say why this applies only to a few samples. So,
+I need to look into that.
+
+Further, we wondered with Antii and Miika, why there are a few SNPs removed from the panel
+for the popuation SNPs, I asked that from Carolina, if she could explain that a bit more
+detailed to me.
+
+### ToDos
+- **Task**: Search, why we have a 2 bases offside in the liftover for a few SNPs
+  - **Due**: 2024-12-20
+  - **Priority**: High
+  - **Estimated Duration**: 3h
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

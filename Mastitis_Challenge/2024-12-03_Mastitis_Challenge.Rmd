@@ -1,0 +1,64 @@
+## 2024-12-03
+
+### Notes
+I started to add the fold change and absolute difference into the analysis. This takes, however, way too long to run,
+because the concatenation of the vector takes too long. My plan is now to
+a) First run the values without names and with NA removed to get the interesting threshold and then
+b) rerun the values but this time without concatenating, but just by writing out the gene names in case it hosts a SNP that belongs to 
+the top 10% in fold change and top 10% in absolute difference
+
+I did previous steps already, and fired them now on the whole dataset. However, I did it such that I take the larger fold-change and the
+absolute difference, meaning this is sort of a two-sided reporting now. I will check how long it runs and then, if possible add still one
+round for the good and then one round for the bad to it. Here, I need to report then also the thresholds
+
+### ToDos
+- **Task**: Run the diff and fc analysis still one sided for good and bad separated
+  - **Due**: 2024-12-05
+  - **Priority**: High
+  - **Estimated Duration**: 1h
+  - **Ready**: Yes
+  - **Tags**: Coding
+  
+  - **Task**: Report still the thresholds for the runs
+  - **Due**: 2024-12-05
+  - **Priority**: High
+  - **Estimated Duration**: 1h
+  - **Ready**: Yes
+  - **Tags**: Coding
+
+- **Task**: Get quickly the diff and ratio threshold
+  - **Due**: 2024-12-05
+  - **Priority**: High
+  - **Estimated Duration**: 2h
+  - **Ready**: Yes
+  - **Tags**: Coding
+
+- **Task**: Get genes associated to top 10% ratio and top 10% difference
+  - **Due**: 2024-12-05
+  - **Priority**: High
+  - **Estimated Duration**: 2h
+  - **Ready**: Yes
+  - **Tags**: Coding
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

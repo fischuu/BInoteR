@@ -1,0 +1,43 @@
+## 2024-12-18
+
+### Notes
+Today I did the travel claim, but talked to Ilma afterwards and Ilma told me, she has not put now the dinner, but placed
+two days of dailies instead. So I asked Timo to return my travel claim so that I can to it then later after he returns it.
+
+I would need to set up the teaching for the Holoruminant still. For that I would need to do
+
+* list the tools
+* identify experts for each tool
+* contact them, if they would be willing to recird videos for them
+* Setup a framework for the video (like input, output, etc.)
+
+### ToDos
+- **Task**: Setting up teaching of the metaG pipeline
+  - **Due**: 2025-01-15
+  - **Priority**: Normal
+  - **Estimated Duration**: 3h
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+Use two dailies in the travel claim for Spain.
+
+### Issues
+I submitted the claim already, so TImo need to retun it that I can fix the dailies.
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

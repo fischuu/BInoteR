@@ -1,0 +1,117 @@
+## 2024-12-20
+
+### Notes
+I still do not get just a few variants from the rescue step, so I decided to take another approach. 
+Now I first create a mpileup for all positions, which apparenly works well, as I get in my expample
+about 26 mio position
+
+```
+bcftools mpileup -A --min-MQ 0 --min-BQ 0 -a FORMAT/AD,FORMAT/DP  -f /scratch/project_2001746/Rescue_dev/REFERENCE/GCA_901001165.2_fSalTru1.2_genomic.fna  ST21_15_50.bam -o testing.npileup
+```
+
+I then filter out monomorphic positions (<*>) 
+
+```
+bcftools filter -i 'ALT != "<*>"' testing.npileup -o filtered.vcf
+```
+
+and have then still about 460k positions left, which looks already much better.
+
+For further processing, I needed to bgzip, index and sort my data
+
+```
+ bgzip filtered.vcf
+ tabix filtered.vcf.gz
+ 
+ # The contigs are not in the optimal vcf, so I need to get them from the fasta file
+ samtools faidx GCA_901001165.2_fSalTru1.2_genomic.fna
+ cut -f1,2 GCA_901001165.2_fSalTru1.2_genomic.fna.fai | awk '{print "##contig=<ID=" $1 ",length=" $2 ">"}' > contig_info.txt
+ mv contig_info.txt  ../VCF/
+ cd VCF/
+ bcftools view -h FinalSetVariants_referenceGenome_GBSTrout_goodsamples.vcf | grep -v "^#CHROM" > vcf_header_no_chrom.txt
+ grep "^#CHROM" FinalSetVariants_referenceGenome_GBSTrout_goodsamples.vcf > chrom_line.txt
+ cat vcf_header_no_chrom.txt contig_info.txt chrom_line.txt > modified_vcf_header.txt
+ bcftools view -H FinalSetVariants_referenceGenome_GBSTrout_goodsamples.vcf > vcf_Data.txt
+ cat modified_vcf_header.txt vcf_Data.txt > final_vcf_with_contig_info.vcf
+ 
+ # Now I can sort and tabix the new vcf
+ bcftools sort final_vcf_with_contig_info.vcf -o sorted_final_vcf_with_contig_info.vcf
+ bgzip sorted_final_vcf_with_contig_info.vcf
+ tabix sorted_final_vcf_with_contig_info.vcf.gz
+ 
+ # clean up
+  rm vcf_data.txt
+  rm vcf_header_no_chrom.txt
+  rm modified_vcf_header.txt
+  rm final_vcf_with_contig_info.vcf
+  rm chrom_line.txt
+  rm contig_info.txt
+```
+
+Out of interest, I now intersected these positions with the vcf from the high quality set
+
+```
+bcftools view -T ../../VCF/sorted_final_vcf_with_contig_info.vcf.gz filtered.vcf.gz -O z -o filtered_intersected_with_inputVCF.vcf.gz
+bgzip -d filtered_intersected_with_inputVCF.vcf.gz
+
+grep -v "^#" filtered_intersected_with_inputVCF.vcf | wc -l
+```
+
+From here I only get 1845 SNPs, which I do not understand at all, why there are only so few :(
+
+Next, I tried to see how many intersect, when I do it too all 29 mio loci
+
+```
+bgzip testing.npileup
+tabix testing.npileup.gz
+bcftools view -T ../../VCF/sorted_final_vcf_with_contig_info.vcf.gz testing.npileup.gz -O z -o tseting_intersected_with_inputVCF.vcf.gz
+
+bgzip -d tseting_intersected_with_inputVCF.vcf.gz
+grep -v "^#" tseting_intersected_with_inputVCF.vcf | wc -l
+```
+
+Also from there I get only 3500 loci. Already more, but still not many.
+
+Still, this is much better than the 731 that I get from the base call
+
+```
+grep -v "^#" ST21_15_50.vcf | wc -l
+```
+
+Then I did the header exercise also still for the ALLgood vcf to be able to intersect that s well
+
+But still, there are still more variants called from the previous run than I get mpileup positions for
+this sample. THAT DOES NOT MAKE ANY SENSE!!!
+
+I will stop it now and will continue later again, when I am more rested.
+
+### ToDos
+- **Task**: [Another Task Title]
+  - **Due**: [YYYY-MM-DD]
+  - **Priority**: [High/Normal/Low]
+  - **Estimated Duration**: [e.g., 2h]
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

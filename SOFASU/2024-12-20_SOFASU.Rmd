@@ -1,0 +1,37 @@
+## 2024-12-20
+
+### Notes
+I changed some of the input parameters and need to rerun the pipeline now for all modules
+
+In the config there was also a wrong tmp folder mentioned, that caused troubles.
+
+### ToDos
+- **Task**: Rerun the other modules one by one
+  - **Due**: 2025-01-10
+  - **Priority**: Normal
+  - **Estimated Duration**: 2.5h
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

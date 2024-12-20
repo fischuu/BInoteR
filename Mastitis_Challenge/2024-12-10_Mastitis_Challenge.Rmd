@@ -1,0 +1,37 @@
+## 2024-12-10
+
+### Notes
+I adjusted the analyse eQTL script so that the percentates fir now, and each line has a unique identifed so that I can extract the genes better. Further, I also write out now genes that have at least a significatnt vairant in their cis region, so I can intersect them better.
+
+The created figures have now also the annotation track (without gene names, though)
+
+### ToDos
+- **Task**: [Another Task Title]
+  - **Due**: [YYYY-MM-DD]
+  - **Priority**: [High/Normal/Low]
+  - **Estimated Duration**: [e.g., 2h]
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+

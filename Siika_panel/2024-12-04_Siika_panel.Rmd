@@ -1,0 +1,52 @@
+## 2024-12-04
+
+### Notes
+Carolina sent a report and a classification of the selected SNPs we handed in and I stored the files in the One Drive project folder.
+
+A few things came to my mind while reading the report that I added as comments to the pdf.
+
+During the meeting we were discussing a bit about the future and one thing that came up was, how Thermo Fisher is calculating the metric for diploid
+and triploid loci. I was thinking that maybe, when they calculate it for diploids on triploid loci they kick out informative loci they would keep if
+they are considered to be triploid. 
+
+My suggestion was to run the metric once for diploid assumption and then once more for triploid assumption and then compare the results and identify
+locations accordingly.
+
+### ToDos
+- **Task**: Ask Carolina about the details of the Thermo Fisher QC metric for diploid and triploid
+  - **Due**: 2025-01-15
+  - **Priority**: Normal
+  - **Estimated Duration**: 1h
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+
+- **Task**: Check the SNP list, if we agree with it
+  - **Due**: 2025-01-15
+  - **Priority**: Normal
+  - **Estimated Duration**: 5h
+  - **Ready**: No
+  - **Tags**: [e.g., experiment, summary, #Priority]
+
+### Emails
+- **To**: [Recipient Email]
+  - **Subject**: [Subject Line]
+  - **Sent**: [YYYY-MM-DD]
+  - **Follow-up**: [YYYY-MM-DD]
+  - **Solved**: No
+
+### Decisions
+- [Enter any decisions made here.]
+
+### Issues
+- [List any problems or challenges to address.]
+
+### Progress
+- [Log completed work or milestones achieved.]
+
+### Resources
+- [Add references, links, or dataset information here.]
+
+### Summary
+- [Summarize completed work, pending tasks, or next steps.]
+
